@@ -1,0 +1,132 @@
+/* --yellow-orange: #ffa630ff;
+--tea-green: #d7e8baff;
+--cadet-blue: #4da1a9ff;
+--y-in-mn-blue: #2e5077ff;
+--old-mauve: #611c35ff; */
+/*color palette link https://coolors.co/ffa630-d7e8ba-4da1a9-2e5077-611c35 */
+
+/* .Navbar {
+  height: 50px;
+  background-color: rgb(34, 34, 250);
+}
+
+nav {
+  padding-top: 10px;
+}
+
+.Heading {
+  color: #611c35;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.subHeading {
+  color: #d7e8ba;
+}
+
+li,
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li,
+a:active,
+li,
+a:hover,
+li,
+a:focus {
+  color: #ffa630;
+  text-decoration: none;
+} */
+
+/* .nav-bar .p-menubar-root-list {
+  position: relative;
+  right: 0;
+}
+
+.nav-bar .p-menubar-button {
+  position: absolute;
+  right: 0;
+} */
+
+@media only screen and (min-width: 960px) {
+    .nav-bar .p-menubar-root-list {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    /* .nav-bar .p-menubar-button {
+      width: 100%;
+      justify-content: flex-end;
+    } */
+  }
+  
+  /* .p-component {
+    background: rgb(142, 195, 255);
+  } */
+  
+  .p-menubar-start {
+    width: 200px;
+  }
+  
+  .p-menubar {
+    border-radius: 0;
+  }
+  
+  .nav-bar .p-menubar,
+  .nav-bar .p-menuitem-text,
+  .nav-bar .p-menuitem-icon,
+  .nav-bar .p-submenu-icon,
+  .nav-bar .p-menubar-root-list {
+    background-color: rgb(34, 34, 250) !important;
+    background: rgb(34, 34, 250) !important;
+  
+    color: white !important;
+  }
+  
+  .nav-bar .p-submenu-list {
+    background: rgb(34, 34, 250) !important;
+  }
+  
+  .nav-bar .p-menuitem-active > .p-menuitem-link,
+  .p-menuitem-link:hover {
+    background: rgb(34, 34, 250) !important;
+    background-color: rgb(34, 34, 250) !important;
+  }
+  
+  .nav-bar-link {
+    color: white;
+  }
+  
+  .nav-bar-link:hover {
+    color: wheat;
+    text-decoration: none;
+  }
+  
+  .p-menubar-button > i {
+    color: white;
+  }
+  
+  #header-logo {
+    background-color: white;
+    padding: 2px;
+  }
+  
+  @media only screen and (max-width: 426px) {
+    .p-menubar-end {
+      width: 100px !important;
+    }
+  
+    .search-box {
+      width: 100px !important;
+    }
+  
+    .p-menubar {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
